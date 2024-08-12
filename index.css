@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+
+}
+
+#outer {
+    padding: 15px;
+    box-shadow: 0 0 30px #0a0a0a;
+    background-color: transparent;
+    border: 5px solid rgb(116, 114, 116);
+    border-radius: 20px;
+}
+
+.cal {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.in {
+    width: 100%;
+    height: 10vh;
+    backdrop-filter: blur(50%);
+    background: greenyellow;
+    border-radius: 10px;
+    box-shadow: -5px -6px 15px #000 inset;
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: end;
+    padding: 10px;
+    margin: 10px 0px;
+    cursor: pointer;
+    border: 2px solid rgb(116, 114, 116);
+
+}
+
+#display {
+    width: 360px;
+    height: 100%;
+    padding: 10px;
+    margin: 20px;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: right;
+    background: transparent;
+    outline: 2px solid #313131;
+    box-shadow: -5px -6px 15px #000 inset;
+    border-radius: 13px;
+}
+
+.equal {
+    color: azure;
+    font-size: 20px;
+    font-weight: 600px;
+    
+    
+}
+
+
+
+
+button {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    color: #fff;
+    outline: 1px solid #313131;
+    outline-offset: 3px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: -5px -6px 15px #000;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    border: 0;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #000;
+    transform: translate(4px, 4px);
+    color: #fff;
+
+}
+
+.operator {
+    color: #fff;
+    background-color: #ff0000;
+    font-weight: 700;
+    outline: 1px solid #3c0202;
+    outline-offset: 3px;
+
+}
+.operator:hover{
+    background-color: #3c0202;
+    transform: translate(4px, 4px);
+    color: #fff;
+
+}
+
+.sym {
+    font-weight: 50;
+    font-size: 35px;
+}
+
+.equal:hover{
+    background-color: #ffffff;
+    transform: translate(4px, 4px);
+    color: #720404;
+    box-shadow: 0 0 20px  #ff0000;
+}
+
+ 
